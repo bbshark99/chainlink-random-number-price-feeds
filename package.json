@@ -1,0 +1,22 @@
+{
+  "name": "chainlink-random-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:rinkeby": "npx truffle compile --network rinkeby",
+    "migrate:rinkeby": "npx truffle migrate --network rinkeby",
+    "verify:rinkeby": "npx truffle run verify PriceFeeds --network rinkeby"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.1.7",
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "path": "^0.12.7",
+    "truffle-plugin-verify": "^0.5.9"
+  }
+}

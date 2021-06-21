@@ -1,0 +1,6 @@
+.env
+.vscode/
+
+abis/
+
+node_modules/
